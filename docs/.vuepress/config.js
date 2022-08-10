@@ -2,7 +2,7 @@ module.exports = {
     // 路径名为 "/<REPO>/"
     base: '/water-ceter/',
     title: '宛在水中央',
-    description: '这是一个看心情更新的博客',
+    description: '这是我第一个博客',
     themeConfig: {
         nav: [
             { text: '首页', link: '/' },
@@ -16,7 +16,7 @@ module.exports = {
         ],
         sidebar: [
             {
-                title: '欢迎学习',
+                title: '欢迎浏览',
                 path: '/',
                 collapsable: false, // 不折叠
                 children: [
@@ -24,13 +24,22 @@ module.exports = {
                 ]
             },
             {
-                title: "基础学习",
-                path: '/handbook/ConditionalTypes',
+                title: "每日生活",
+                path: '/handbook/share',
                 collapsable: false, // 不折叠
                 children: [
-                    { title: "条件类型", path: "/handbook/ConditionalTypes" },
-                    { title: "泛型", path: "/handbook/Generics" },
-                    { title: "主页模板", path: "/handbook/indexModules" }
+                    { title: "日常分享", path: "/handbook/share" },
+                    { title: "饭食", path: "/handbook/food" },
+                    { title: "碎碎念", path: "/handbook/indexModules" }
+
+                ],
+            },
+            {
+                title: "每日学习",
+                path: '/DailyLearning/reap',
+                collapsable: false, // 不折叠
+                children: [
+                    { title: "学习收获", path: "/DailyLearning/reap" },
 
                 ],
             }

@@ -17,6 +17,4 @@ git commit -m 'deploy'
 # git push -f git@github.com:mqyqingfeng/learn-typescript.git master:gh-pages
 git push -f git@github.com:shuizhongyang999/water-ceter.git master:gh-pages
 
-
-
 cd -
